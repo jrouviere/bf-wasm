@@ -1,8 +1,9 @@
 # bf-wasm
 
 Compile a [brainfuck](https://en.wikipedia.org/wiki/Brainfuck) program into WebAssembly binary code.
-The resulting webassembly code is still pretty inefficient, but we rely on the browser to optimise it.
-So the end result is actually pretty fast because the webassembly code is optimised and compile to native code by the browser.
+
+The resulting webassembly code is very inefficient, but we rely on the browser to optimise it.
+So it is actually running pretty fast because the webassembly code is optimised and compiled into native code by the browser.
 
 As a reference, on my machine the mandelbrot.bf program runs in:
 
