@@ -13,6 +13,8 @@ As a reference, on my machine the mandelbrot.bf program runs in:
 - 0.9s when compiled directly with [bf-llvmlite](https://github.com/jrouviere/bf-llvmlite)
 - 30+ min with a naive python interpreter
 
+Note that this is not representative of a real-world application, as in general the webassembly code would already be optimised by the compiler generating it. The code we give to the browser in this demo is comically bad.
+ 
 ## Overview
 
 That very simple brainfuck program:
